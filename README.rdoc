@@ -23,7 +23,7 @@ Adds your Google Analytics code to every pageview depending on your User roles; 
 
 == License
 
-This plugin is licensed under the GNU GPL v2.  See LICENSE.txt and GPL.txt for details.
+This plugin is licensed under the GNU GPL v2.  See COPYRIGHT.txt and GPL.txt for details.
 
 == Project help
 
