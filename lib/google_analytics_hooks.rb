@@ -1,4 +1,9 @@
+# This class hooks into Redmine's View Listeners in order to
+# add content to the page
 class GoogleAnalyticsHooks  < Redmine::Hook::ViewListener
+
+  # Adds the Google Analytics code to the layout if the current user meets
+  # the conditions setup by the System Administrator
   def view_layouts_base_body_bottom(context = { })
     log_anon = Setting.plugin_google_analytics_plugin['google_analytics_log_anonymous']
     log_auth = Setting.plugin_google_analytics_plugin['google_analytics_log_authenticated']
