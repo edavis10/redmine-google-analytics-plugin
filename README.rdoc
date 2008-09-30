@@ -1,3 +1,31 @@
-= google_analytics
+= Redmine Google Analytics Plugins
 
-Description goes here
+Redmine plugin to insert the Google Analytics tracking code into Redmine based on user roles.
+
+== Features
+
+Adds your Google Analytics code to every pageview depending on your User roles; Anonymous user, Authenticated User, and Administrator.
+
+== Installation and Setup
+
+1. Download the plugin.  There are three supported ways:
+   *  Downloading the latest archive file from Little Stream Software projects (https://projects.littlestreamsoftware.com)
+   * Checkout the source from Git
+
+       git clone git://github.com/edavis10/redmine-google-analytics-plugin.git vendor/plugins/google_analytics_plugin
+
+   * Install it using Rail's plugin installer
+
+       script/plugin install git://github.com/edavis10/redmine-google-analytics-plugin.git
+
+2. Login to your Redmine install as an Administrator.
+3. Configure your settings in Administration > Information > Configure
+
+== License
+
+This plugin is licensed under the GNU GPL v2.  See LICENSE.txt and GPL.txt for details.
+
+== Project help
+
+If you need help you can contact the maintainer at his email address (See CREDITS.txt) or create an issue in the Bug Tracker.  The bug tracker is located at  https://projects.littlestreamsoftware.com
+
