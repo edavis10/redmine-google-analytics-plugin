@@ -2,6 +2,8 @@ require 'redmine'
 
 RAILS_DEFAULT_LOGGER.info 'Starting Google Analytics plugin for RedMine'
 
+require_dependency 'google_analytics_hooks'
+
 Redmine::Plugin.register :google_analytics_plugin do
   name 'Google Analytics plugin'
   author 'Eric Davis'
@@ -17,3 +19,4 @@ Redmine::Plugin.register :google_analytics_plugin do
 
 
 end
+
