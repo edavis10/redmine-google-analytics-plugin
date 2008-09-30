@@ -1,5 +1,15 @@
 class GoogleAnalyticsHooks  < Redmine::Hook::ViewListener
   def view_layouts_base_body_bottom(context = { })
-    h("hello from Google")
+    log_anon = Setting.plugin_google_analytics_plugin['google_analytics_log_anonymous']
+    log_auth = Setting.plugin_google_analytics_plugin['google_analytics_log_authenticated']
+    log_admin = Setting.plugin_google_analytics_plugin['google_analytics_log_administrator']
+
+    if (User.current.anonymous? && log_anon) || # Anon user
+        (User.current.logged? && log_auth && !User.current.admin?) || # Auth users who are not admins
+        (User.current.admin? && log_admin) # Admin user
+      return Setting.plugin_google_analytics_plugin['google_analytics_code']
+    else
+      return ''
+    end
   end
 end
