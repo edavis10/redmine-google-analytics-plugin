@@ -85,7 +85,7 @@ Rake::RDocTask.new(:rdoc) do |rdoc|
 end
 
 desc "Create release archives"
-task :release => [:clean, 'release:zip', 'release:tarball']
+task :release => [:clean, :rdoc, 'release:zip', 'release:tarball']
 
 namespace :release do
   desc "Create a zip archive"
