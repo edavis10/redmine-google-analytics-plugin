@@ -1,20 +1,20 @@
 <p>
-  Enter your <a href="http://www.google.com/analytics/">Google Analytics</a> JavaScript code into the area below and choose your logging options.
+  <%= l(:google_analytics_directions) %>
 </p>
 
 <p>
-  <label>Google Analytics code (including script tags)</label><%= text_area_tag 'settings[google_analytics_code]', @settings['google_analytics_code'], :rows => 10, :cols => 85 %>
+  <label><%= l(:google_analytics_code_label) %></label><%= text_area_tag 'settings[google_analytics_code]', @settings['google_analytics_code'], :rows => 10, :cols => 85 %>
 </p>
 
 <p>
-  <label>Log anonymous users</label><%= check_box_tag 'settings[google_analytics_log_anonymous]', '1', @settings['google_analytics_log_anonymous'] %>
+  <label><%= l(:google_analytics_log_anonymous_label) %></label><%= check_box_tag 'settings[google_analytics_log_anonymous]', '1', @settings['google_analytics_log_anonymous'] %>
 </p>
 
 <p>
-  <label>Log authenticated users</label><%= check_box_tag 'settings[google_analytics_log_authenticated]', '1', @settings['google_analytics_log_authenticated'] %>
+  <label><%= l(:google_analytics_log_authenticated_label) %></label><%= check_box_tag 'settings[google_analytics_log_authenticated]', '1', @settings['google_analytics_log_authenticated'] %>
 </p>
 
 <p>
-  <label>Log administrator users</label><%= check_box_tag 'settings[google_analytics_log_administrator]', '1', @settings['google_analytics_log_administrator'] %>
+  <label><%= l(:google_analytics_log_administrator_label) %></label><%= check_box_tag 'settings[google_analytics_log_administrator]', '1', @settings['google_analytics_log_administrator'] %>
 </p>
 
