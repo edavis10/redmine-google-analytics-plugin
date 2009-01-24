@@ -10,6 +10,8 @@ Redmine::Plugin.register :google_analytics_plugin do
   description 'Redmine plugin to insert the Google Analytics tracking code into Redmine based on user roles.'
   version '0.1.0'
   
+  requires_redmine :version_or_higher => '0.8.0'
+  
   settings :default => {
     'google_analytics_code' => '',
     'google_analytics_log_anonymous' => true,
