@@ -1,0 +1,5 @@
+google_analytics_directions: 'Add meg a te <a href="http://www.google.com/analytics/">Google Analytics</a> JavaScript kódodat a lenti mezőben és válaszd ki a naplózási beállításokat.'
+google_analytics_code_label: Google Analytics kód (script címkékkel együtt)
+google_analytics_log_anonymous_label: Anoním felhasználók naplója
+google_analytics_log_authenticated_label: Azonosított felhasználók naplója
+google_analytics_log_administrator_label: Adminisztrátor felhasználók naplója
