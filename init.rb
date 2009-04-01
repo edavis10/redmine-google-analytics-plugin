@@ -9,7 +9,7 @@ Redmine::Plugin.register :google_analytics_plugin do
   url 'https://projects.littlestreamsoftware.com/projects/redmine-analytics'
   author_url 'http://www.littlestreamsoftware.com'
   
-  version '0.1.0'
+  version '0.2.0'
   
   requires_redmine :version_or_higher => '0.8.0'
   
