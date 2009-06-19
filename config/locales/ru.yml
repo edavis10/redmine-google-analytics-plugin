@@ -1,0 +1,6 @@
+ru:
+  google_analytics_directions: Введите ваш JavaScript код от <a href="http://www.google.com/analytics/">Google Analytics</a> в поле ниже и выберите параметры отслеживания.
+  google_analytics_code_label: Код Google Analytics (включая теги SCRIPT)
+  google_analytics_log_anonymous_label: Отслеживать анонимных пользователей
+  google_analytics_log_authenticated_label: Отслеживать авторизованных пользователей
+  google_analytics_log_administrator_label: Отслеживать администраторов.
