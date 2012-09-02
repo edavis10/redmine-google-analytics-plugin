@@ -23,13 +23,11 @@ Gem::Specification.new do |s|
      "Rakefile",
      "VERSION",
      "app/views/settings/_google_analytics_settings.html.erb",
+     "config/locales/de.yml",
      "config/locales/en.yml",
      "config/locales/hu.yml",
      "config/locales/it.yml",
      "init.rb",
-     "lang/en.yml",
-     "lang/hu.yml",
-     "lang/it.yml",
      "lib/google_analytics_hooks.rb",
      "test/test_helper.rb"
   ]
