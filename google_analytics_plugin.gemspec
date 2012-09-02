@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{google_analytics_plugin}
-  s.version = "0.2.0"
+  s.version = "0.3.0-beta"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Eric Davis"]
@@ -22,7 +22,7 @@ Gem::Specification.new do |s|
      "README.rdoc",
      "Rakefile",
      "VERSION",
-     "app/views/settings/_google_analytics_settings.rhtml",
+     "app/views/settings/_google_analytics_settings.html.erb",
      "config/locales/en.yml",
      "config/locales/hu.yml",
      "config/locales/it.yml",

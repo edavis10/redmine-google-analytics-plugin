@@ -1,6 +1,6 @@
 # This class hooks into Redmine's View Listeners in order to
 # add content to the page
-class GoogleAnalyticsHooks  < Redmine::Hook::ViewListener
+class GoogleAnalyticsHooks < Redmine::Hook::ViewListener
 
   # Adds the Google Analytics code to the layout if the current user meets
   # the conditions setup by the System Administrator
