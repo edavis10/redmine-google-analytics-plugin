@@ -31,7 +31,6 @@ Gem::Specification.new do |s|
      "lang/hu.yml",
      "lang/it.yml",
      "lib/google_analytics_hooks.rb",
-     "rails/init.rb",
      "test/test_helper.rb"
   ]
   s.homepage = %q{https://projects.littlestreamsoftware.com/projects/TODO}
