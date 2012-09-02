@@ -9,8 +9,8 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Eric Davis"]
-  s.date = %q{2009-10-14}
-  s.description = %q{Redmine plugin to insert the Google Analytics tracking code into Redmine based on user roles.}
+  s.date = %q{2012-09-02}
+  s.description = %q{Redmine plugin to insert a Google Analytics (or e.g. Piwik) tracking code into Redmine based on user roles.}
   s.email = %q{edavis@littlestreamsoftware.com}
   s.extra_rdoc_files = [
     "README.rdoc"
@@ -38,7 +38,7 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
   s.rubyforge_project = %q{google_analytics_plugin}
   s.rubygems_version = %q{1.3.5}
-  s.summary = %q{Redmine plugin to insert the Google Analytics tracking code into Redmine based on user roles.}
+  s.summary = %q{Redmine plugin to insert a Google Analytics (or e.g. Piwik) tracking code into Redmine based on user roles.}
   s.test_files = [
     "test/test_helper.rb"
   ]

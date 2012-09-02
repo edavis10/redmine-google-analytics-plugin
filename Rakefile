@@ -12,10 +12,10 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |s|
     s.name = "google_analytics_plugin"
-    s.summary = "Redmine plugin to insert the Google Analytics tracking code into Redmine based on user roles."
+    s.summary = "Redmine plugin to insert a Google Analytics (or e.g. Piwik) tracking code into Redmine based on user roles."
     s.email = "edavis@littlestreamsoftware.com"
     s.homepage = "https://projects.littlestreamsoftware.com/projects/TODO"
-    s.description = "Redmine plugin to insert the Google Analytics tracking code into Redmine based on user roles."
+    s.description = "Redmine plugin to insert a Google Analytics (or e.g. Piwik) tracking code into Redmine based on user roles."
     s.authors = ["Eric Davis"]
     s.rubyforge_project = "google_analytics_plugin" # TODO
     s.files =  FileList[

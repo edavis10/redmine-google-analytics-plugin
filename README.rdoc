@@ -1,31 +1,30 @@
 = Redmine Google Analytics Plugins
 
-Redmine plugin to insert the Google Analytics tracking code into Redmine based on user roles.
+Redmine plugin to insert a Google Analytics (or e.g. Piwik) tracking code into Redmine based on user roles.
 
 == Features
 
-Adds your Google Analytics code to every pageview depending on your User roles; Anonymous user, Authenticated User, and Administrator.
+Adds your Google Analytics (or e.g. Piwik) code to every pageview depending on your User roles; Anonymous user, Authenticated User, and/or Administrator.
 
 == Installation and Setup
 
-1. Download the plugin.  There are three supported ways:
-   *  Downloading the latest archive file from Little Stream Software projects (https://projects.littlestreamsoftware.com)
+This plugin version requires Redmine >= 2.0.0!
+
+1. Download the plugin. There are two supported ways:
+   * Downloading the latest archive file from Little Stream Software projects (https://projects.littlestreamsoftware.com)
    * Checkout the source from Git
 
-       git clone git://github.com/edavis10/redmine-google-analytics-plugin.git vendor/plugins/google_analytics_plugin
-
-   * Install it using Rail's plugin installer
-
-       script/plugin install git://github.com/edavis10/redmine-google-analytics-plugin.git
+       git clone git://github.com/edavis10/redmine-google-analytics-plugin.git plugins/google_analytics_plugin
 
 2. Login to your Redmine install as an Administrator.
-3. Configure your settings in Administration > Information > Configure
+3. Configure your settings in Administration > Plugins > [Google Analytics plugin] - Configure
+
+You have to paste the complete Google Analytics or e.g. Piwik tracking code, including the HTML script tags, into the field.
 
 == License
 
-This plugin is licensed under the GNU GPL v2.  See COPYRIGHT.txt and GPL.txt for details.
+This plugin is licensed under the GNU GPL v2. See COPYRIGHT.txt and GPL.txt for details.
 
 == Project help
 
-If you need help you can contact the maintainer at the Bug Tracker.  The bug tracker is located at  https://projects.littlestreamsoftware.com
-
+If you need help you can contact the maintainer at the Bug Tracker. The bug tracker is located at  https://projects.littlestreamsoftware.com
