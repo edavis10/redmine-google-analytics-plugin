@@ -1,5 +1,0 @@
-google_analytics_directions: Scrivi il codice JavaScript di Google Analytics nel campo qui sotto e scegli le opzioni di logging.
-google_analytics_code_label: Codice Google Analytics (incluso il tag script)
-google_analytics_log_anonymous_label: Traccia utenti anonimi
-google_analytics_log_authenticated_label: Traccia utenti autenticati
-google_analytics_log_administrator_label: Traccia amministratori

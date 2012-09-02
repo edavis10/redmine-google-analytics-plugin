@@ -1,6 +1,0 @@
-# English strings go here
-google_analytics_directions: Enter your <a href="http://www.google.com/analytics/">Google Analytics</a> JavaScript code into the area below and choose your logging options.
-google_analytics_code_label: Google Analytics code (including script tags)
-google_analytics_log_anonymous_label: Log anonymous users
-google_analytics_log_authenticated_label: Log authenticated user
-google_analytics_log_administrator_label: Log administrator users
