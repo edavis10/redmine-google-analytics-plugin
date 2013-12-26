@@ -11,6 +11,7 @@ Adds your Google Analytics (or e.g. Piwik) code to every pageview depending on y
 This plugin version requires Redmine >= 2.0.0!
 
 1. Download the plugin. There are two supported ways:
+   * Downloading the latest archive file from GiHub: https://github.com/rkallensee/redmine-google-analytics-plugin/archive/master.zip
    * Checkout the source from Git
 
        git clone git://github.com/makotokw/redmine-google-analytics-plugin.git plugins/google_analytics_plugin
