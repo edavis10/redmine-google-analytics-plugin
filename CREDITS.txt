@@ -7,3 +7,4 @@ Contributors
 * rkallensee https://github.com/rkallensee/redmine-google-analytics-plugin
 * Makoto Kawasaki http://makotokw.com
 * Tobias Fischer (pagina GmbH): https://github.com/paginagmbh
+* Marcelo Romulo Fernandes

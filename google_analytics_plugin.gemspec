@@ -28,6 +28,8 @@ Gem::Specification.new do |s|
      "config/locales/hu.yml",
      "config/locales/it.yml",
      "config/locales/ja.yml",
+     "config/locales/pt.yml",
+     "config/locales/pt-BR.yml",
      "init.rb",
      "lib/google_analytics_hooks.rb",
      "test/test_helper.rb"
