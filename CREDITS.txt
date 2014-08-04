@@ -8,3 +8,4 @@ Contributors
 * Makoto Kawasaki http://makotokw.com
 * Tobias Fischer (pagina GmbH): https://github.com/paginagmbh
 * Marcelo Romulo Fernandes
+* Michael Pirogov
