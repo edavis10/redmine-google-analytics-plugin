@@ -16,9 +16,9 @@ This plugin version requires Redmine >= 2.0.0!
        cd /your_redmine_root/plugins/
 2. Download the plugin. There are two supported ways:
    * Downloading the latest archive file from the GitHub project page:
-       wget https://github.com/rkallensee/redmine-google-analytics-plugin/archive/master.zip
+       wget https://github.com/paginagmbh/redmine-google-analytics-plugin/archive/master.zip
    * Checkout the sources from Git:
-       git clone git://github.com/rkallensee/redmine-google-analytics-plugin.git plugins/google_analytics_plugin
+       git clone git://github.com/paginagmbh/redmine-google-analytics-plugin.git plugins/google_analytics_plugin
 3. Restart your redmine webserver
 4. Login to your Redmine install as an Administrator.
 5. Configure your settings in _Administration_ > _Plugins_ > [Google Analytics plugin] - _Configure_
