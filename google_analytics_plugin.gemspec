@@ -5,12 +5,12 @@
 
 Gem::Specification.new do |s|
   s.name = %q{google_analytics_plugin}
-  s.version = "0.2.0"
+  s.version = "0.3.0-beta"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Eric Davis"]
-  s.date = %q{2009-10-14}
-  s.description = %q{Redmine plugin to insert the Google Analytics tracking code into Redmine based on user roles.}
+  s.date = %q{2012-09-02}
+  s.description = %q{Redmine plugin to insert a Google Analytics (or e.g. Piwik) tracking code into Redmine based on user roles.}
   s.email = %q{edavis@littlestreamsoftware.com}
   s.extra_rdoc_files = [
     "README.rdoc"
@@ -22,16 +22,17 @@ Gem::Specification.new do |s|
      "README.rdoc",
      "Rakefile",
      "VERSION",
-     "app/views/settings/_google_analytics_settings.rhtml",
+     "app/views/settings/_google_analytics_settings.html.erb",
+     "config/locales/de.yml",
      "config/locales/en.yml",
      "config/locales/hu.yml",
      "config/locales/it.yml",
+     "config/locales/ja.yml",
+     "config/locales/pt.yml",
+     "config/locales/pt-BR.yml",
+     "config/locales/ru.yml",
      "init.rb",
-     "lang/en.yml",
-     "lang/hu.yml",
-     "lang/it.yml",
      "lib/google_analytics_hooks.rb",
-     "rails/init.rb",
      "test/test_helper.rb"
   ]
   s.homepage = %q{https://projects.littlestreamsoftware.com/projects/TODO}
@@ -39,7 +40,7 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
   s.rubyforge_project = %q{google_analytics_plugin}
   s.rubygems_version = %q{1.3.5}
-  s.summary = %q{Redmine plugin to insert the Google Analytics tracking code into Redmine based on user roles.}
+  s.summary = %q{Redmine plugin to insert a Google Analytics (or e.g. Piwik) tracking code into Redmine based on user roles.}
   s.test_files = [
     "test/test_helper.rb"
   ]

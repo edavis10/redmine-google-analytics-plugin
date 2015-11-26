@@ -1,0 +1,6 @@
+de:
+  google_analytics_directions: Bitte den <a href="http://www.google.com/analytics/">Google Analytics</a>-JavaScript-Code in das Textfeld einfügen und die gewünschten Tracking-Optionen auswählen.
+  google_analytics_code_label: Google Analytics-Code (inklusive <script>-Tags)
+  google_analytics_log_anonymous_label: Anonyme Benutzer tracken
+  google_analytics_log_authenticated_label: Authentifizierte Benutzer tracken
+  google_analytics_log_administrator_label: Administratoren tracken

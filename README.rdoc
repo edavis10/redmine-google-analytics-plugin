@@ -1,31 +1,31 @@
 = Redmine Google Analytics Plugins
 
-Redmine plugin to insert the Google Analytics tracking code into Redmine based on user roles.
+Redmine plugin to insert a Google Analytics (or e.g. Piwik) tracking code into Redmine based on user roles.
+
 
 == Features
 
-Adds your Google Analytics code to every pageview depending on your User roles; Anonymous user, Authenticated User, and Administrator.
+Adds your Google Analytics (or e.g. Piwik) code to every pageview depending on your User roles; Anonymous user, Authenticated User, and/or Administrator.
+
 
 == Installation and Setup
 
-1. Download the plugin.  There are three supported ways:
-   *  Downloading the latest archive file from Little Stream Software projects (https://projects.littlestreamsoftware.com)
-   * Checkout the source from Git
+This plugin version requires Redmine >= 2.0.0!
 
-       git clone git://github.com/edavis10/redmine-google-analytics-plugin.git vendor/plugins/google_analytics_plugin
+1. Change in the plugin directory of your redmine installation
+       cd /your_redmine_root/plugins/
+2. Download the plugin. There are two supported ways:
+   * Downloading the latest archive file from the GitHub project page:
+       wget https://github.com/paginagmbh/redmine-google-analytics-plugin/archive/master.zip
+   * Checkout the sources from Git:
+       git clone git://github.com/paginagmbh/redmine-google-analytics-plugin.git plugins/google_analytics_plugin
+3. Restart your redmine webserver
+4. Login to your Redmine install as an Administrator.
+5. Configure your settings in _Administration_ > _Plugins_ > [Google Analytics plugin] - _Configure_
 
-   * Install it using Rail's plugin installer
+You have to paste the complete Google Analytics or e.g. Piwik tracking code, including the HTML script tags, into the field.
 
-       script/plugin install git://github.com/edavis10/redmine-google-analytics-plugin.git
-
-2. Login to your Redmine install as an Administrator.
-3. Configure your settings in Administration > Information > Configure
 
 == License
 
-This plugin is licensed under the GNU GPL v2.  See COPYRIGHT.txt and GPL.txt for details.
-
-== Project help
-
-If you need help you can contact the maintainer at the Bug Tracker.  The bug tracker is located at  https://projects.littlestreamsoftware.com
-
+This plugin is licensed under the GNU GPL v2. See COPYRIGHT.txt and GPL.txt for details.

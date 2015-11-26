@@ -1,0 +1,6 @@
+ja:
+  google_analytics_directions: <a href="http://www.google.com/analytics/">Google Analytics</a> トラッキングコードを以下に設定してください。
+  google_analytics_code_label: トラッキングコード (scriptタグを含む)
+  google_analytics_log_anonymous_label: 匿名ユーザのトラッキング
+  google_analytics_log_authenticated_label: ログインユーザのトラッキング
+  google_analytics_log_administrator_label: 管理者ユーザのトラッキング

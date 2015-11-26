@@ -1,9 +1,11 @@
 Thanks go to the following people for patches and contributions:
 
-Maintainers
-
-* Eric Davis of Little Stream Software
-
 Contributors
 
+* Eric Davis of Little Stream Software
 * Gergő Jónás
+* rkallensee https://github.com/rkallensee/redmine-google-analytics-plugin
+* Makoto Kawasaki http://makotokw.com
+* Tobias Fischer (pagina GmbH): https://github.com/paginagmbh
+* Marcelo Romulo Fernandes
+* Michael Pirogov
